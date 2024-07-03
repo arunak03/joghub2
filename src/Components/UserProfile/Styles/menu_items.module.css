@@ -1,0 +1,53 @@
+.menu {
+  margin-top: 20px;
+}
+
+.profileItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+.profileIcon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.profileName {
+  font-size: 18px;
+  font-family: 'Broadway', sans-serif; 
+
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.menuItem.selected {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 8px;
+}
+
+.menuItem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.label {
+  flex-grow: 1;
+  white-space: nowrap;
+}

@@ -1,0 +1,8 @@
+.right_Main_container {
+    padding: 20px;
+    /* background-color: white; */
+    transition: margin-left 0.3s ease;
+    width: 75%;
+
+  }
+ 
